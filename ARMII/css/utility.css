@@ -1,0 +1,29 @@
+.text-big {
+    font-size: 34px;
+    font-weight: bolder;
+    margin: 11px 17px;
+}
+
+
+.text-small {
+    font-size: 21px;
+    margin: 0 24px;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 9px;
+    margin-top: 19px;
+}
+
+@media  screen and (max-widht:1272px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    
+}
